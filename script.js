@@ -9,9 +9,20 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function helloWorld() {
+/*(function helloWorld() {
     alert ("Hello World");
 
     // your code here
 
+})();*/
+// function to display a string
+
+/*(function() {
+
+    let name = prompt("What is your name?");
+    alert("Hello, " + name + "!");
+
 })();
+// function to make a prompt where you can fill in your name and display it with another string in the alertbox
+*/
+
