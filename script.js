@@ -22,7 +22,23 @@
     let name = prompt("What is your name?");
     alert("Hello, " + name + "!");
 
-})();
-// function to make a prompt where you can fill in your name and display it with another string in the alertbox
-*/
+})();*/
 
+// function to make a prompt where you can fill in your name and display it with another string in the alertbox
+
+
+/*(function() {
+
+    var cake = prompt("Piece of cake?")
+    if(cake=="yes") {
+    alert("Congrats! Here is your piece!")
+    } 
+    else {
+    alert("Oh, more for me!")
+    }
+  
+  })();
+  */
+
+ // prompt if statement, if my var is equal too the string yes then...else we got another string of text.
+  
