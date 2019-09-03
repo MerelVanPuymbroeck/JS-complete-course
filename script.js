@@ -58,32 +58,47 @@
 
  */
 
-/*var inputIdFirst = "valueOfX",inputIdSecond = "valueOfY",outputId = "resultHere";
-var getInputs = function(id) {
-  return parseInt(document.getElementById(id).value);
-}
-var showOutput = function(outputValue, outputIdAsArg) {
-  //if no argument is given then by default "outputId" taken
-  document.getElementById(outputId).innerHTML = outputValue;
-}
-var manuplateAs = function(operationName, valueOfX, valueOfY) {
-  if(operationName == 'add')
-    return valueOfX + valueOfY;
-  else if(operationName == 'sub')
-    return valueOfX - valueOfY;
-  else if(operationName == 'mul')
-    return valueOfX * valueOfY;
-  else if(operationName == 'div')
-    return valueOfX / valueOfY;
-  //can add as many as you wish 
-} 
-var operation = function(operationName){
-  x = getInputs(inputIdFirst);
-  y = getInputs(inputIdSecond);
-  output = manuplateAs(operationName, x, y);
-  showOutput(output);
-  console.log(x + " " + operationName + " " + y + " = " + output)
-  //see console to understand this more
-  console.log(this)
-}; */
-
+(function calculate() {
+  
+  document.getElementById("addition").addEventListener("click", function() {
+    let field1 = document.getElementById('op-one').value;
+    let field2 = document.getElementById('op-two').value;
+  
+    let result = parseFloat(field1) + parseFloat(field2);
+    if(result){
+        alert(result)
+        // let result = parsefloat(field1) --> the number you put in there + (to make the math) parseFloat(field2) 
+        //the second number you put in there then alert the result of this math
+    }
+  });
+  
+  document.getElementById("substraction").addEventListener("click", function() {
+      let field1 = document.getElementById('op-one').value;
+      let field2 = document.getElementById('op-two').value;
+  
+      let result = parseFloat(field1) - parseFloat(field2);
+      if(result){
+          alert(result)
+       } // perform an substraction
+  });
+  
+  document.getElementById("multiplication").addEventListener("click", function() {
+      let field1 = document.getElementById('op-one').value;
+      let field2 = document.getElementById('op-two').value;
+  
+      let result = parseFloat(field1) * parseFloat(field2);
+      if(result){
+          alert(result)
+       }// perform an multiplication
+  });
+  
+  document.getElementById("division").addEventListener("click", function() {
+      let field1 = document.getElementById('op-one').value;
+      let field2 = document.getElementById('op-two').value;
+  
+      let result = parseFloat(field1) / parseFloat(field2);
+      if(result){
+          alert(result)
+       }// perform an division
+  });
+  })();
