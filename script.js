@@ -42,20 +42,48 @@
 
  // prompt if statement, if my var is equal too the string yes then...else we got another string of text.
  
- /*(function getInfo() {
-    var retVal = prompt("Enter your name : ", "your name here");
-    alert("Hello " + retVal);
-    var age = prompt("How old are you?");
-    var gender = prompt("What's your gender?");
-    var city = prompt("What town do you live in?");
-    getConfirmation(age, gender, city);
-    }) ();
+ /* (function() {
+
+    // your code here
+    let userAge = prompt("What's your age");
+    let userGender = prompt("Whats your gender");
+    let userLives = prompt("Where do you live?")
     
- (function getConfirmation(age, gender, town) {
-    var values = confirm(You are ${age} years old, a ${gender} and living in ${city}. \n Do you want to continue ?);
-    if (values == true) {
-    document.write("User wants to continue!");
-    return true;
-    } else {
-    return getValue();
-    }) (); */
+    alert(
+        `
+        Your age is: ${userAge}
+        You are: ${userGender}
+        You live in: ${userLives} `)
+    })();
+
+ */
+
+/*var inputIdFirst = "valueOfX",inputIdSecond = "valueOfY",outputId = "resultHere";
+var getInputs = function(id) {
+  return parseInt(document.getElementById(id).value);
+}
+var showOutput = function(outputValue, outputIdAsArg) {
+  //if no argument is given then by default "outputId" taken
+  document.getElementById(outputId).innerHTML = outputValue;
+}
+var manuplateAs = function(operationName, valueOfX, valueOfY) {
+  if(operationName == 'add')
+    return valueOfX + valueOfY;
+  else if(operationName == 'sub')
+    return valueOfX - valueOfY;
+  else if(operationName == 'mul')
+    return valueOfX * valueOfY;
+  else if(operationName == 'div')
+    return valueOfX / valueOfY;
+  //can add as many as you wish 
+} 
+var operation = function(operationName){
+  x = getInputs(inputIdFirst);
+  y = getInputs(inputIdSecond);
+  output = manuplateAs(operationName, x, y);
+  showOutput(output);
+  console.log(x + " " + operationName + " " + y + " = " + output)
+  //see console to understand this more
+  console.log(this)
+}; */
+
