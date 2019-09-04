@@ -58,7 +58,7 @@
 
  */
 
-(function calculate() {
+/*(function calculate() {
   
   document.getElementById("addition").addEventListener("click", function() {
     let field1 = document.getElementById('op-one').value;
@@ -102,3 +102,31 @@
        }// perform an division
   });
   })();
+
+  */ 
+ function showresult(choise){
+  var n1=parseFloat(document.getElementById('op-one').value);
+  var n2=parseFloat(document.getElementById('op-two').value);
+  var r;
+  var c=choise;
+  
+  switch(c)
+    {
+    case 'addition':
+      r=n1+n2;
+      break;
+    case 'substraction':
+      r=n1-n2;
+      break;
+    case 'multiplication':
+      r=n1*n2;
+      break;
+    case 'division': 
+      r=n1/n2;
+      break;
+    default:
+      break;
+        
+    }
+  document.getElementById('result').value=r;
+  }
