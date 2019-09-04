@@ -134,3 +134,19 @@
   document.getElementById('result').value=r;
   }
   */
+
+/* even squares */
+function square()
+{
+var n=prompt ("Enter the limit 'n' to generate the table of numbers from 1 to 25:",""); //alert box to put in the chosen number
+var msg=""; // the message / number
+var res= "25"; //the max number
+ 
+for(var x= 1; x<=n;x++) // x = 1, if x is less then 25 then put +1 to the number
+{
+res = x * x; // doing the math until 25
+msg = msg + " " + x + " * "+ x + " = " + res + "\n"; // to fill in the numbers in the alert box
+}
+ 
+alert(msg); //display the messages with the numbers 
+} 
