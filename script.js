@@ -104,11 +104,12 @@
   })();
 
   */ 
- function showresult(choise){
+ /*function showresult(choise){
   var n1=parseFloat(document.getElementById('op-one').value);
   var n2=parseFloat(document.getElementById('op-two').value);
   var r;
   var c=choise;
+  // defining the type fields
   
   switch(c)
     {
@@ -128,5 +129,8 @@
       break;
         
     }
+
+    // n1 is our var from our typefield 1, n2 is our var from our typefield 2 , so these numbers we use to make our maths. r= return
   document.getElementById('result').value=r;
   }
+  */
