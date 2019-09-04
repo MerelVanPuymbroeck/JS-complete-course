@@ -135,18 +135,19 @@
   }
   */
 
-/* even squares */
+/* even squares 
 function square()
 {
-var n=prompt ("Enter a number to generate the table of square numbers from 1 to 25:",""); //alert box to put in the chosen number
+var n=prompt ("Enter a number to generate the table of square numbers from 1 to 25:",""); //alert box to put in the chosen number with a message
 var msg=""; // the message / number
-var res= "25"; //the max number
+var res= "26"; //the max number
  
-for(var x= 1; x<=n;x++) // x = 1, if x is less then 25 then put +1 to the number
+for(var x= 1; x<=n;x++) // x = 1, if x is less then 25 then put +1 to the number in the alert box "n"
 {
-res = x * x; // doing the math until 25
+res = x * x; // doing the math
 msg = msg + " " + x + " * "+ x + " = " + res + "\n"; // to fill in the numbers in the alert box
 }
  
 alert(msg); //display the messages with the numbers 
 } 
+*/
