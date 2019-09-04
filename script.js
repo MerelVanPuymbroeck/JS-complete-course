@@ -138,7 +138,7 @@
 /* even squares */
 function square()
 {
-var n=prompt ("Enter the limit 'n' to generate the table of numbers from 1 to 25:",""); //alert box to put in the chosen number
+var n=prompt ("Enter a number to generate the table of square numbers from 1 to 25:",""); //alert box to put in the chosen number
 var msg=""; // the message / number
 var res= "25"; //the max number
  
