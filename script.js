@@ -151,6 +151,8 @@ msg = msg + " " + x + " * "+ x + " = " + res + "\n"; // to fill in the numbers i
 alert(msg); //display the messages with the numbers 
 } 
 */
+
+/* sort numbers
 var submit = document.querySelector('#submit')
 var output = document.getElementById('demo')
 
@@ -171,3 +173,17 @@ submit.addEventListener('click', function(event) {
 
   sortArray()
 })
+*/
+/* factorial 
+function show(){
+
+  var i, no, fact;
+  fact=1;
+  no=Number(document.getElementById("num").value); // this code is used to recieve the input value of your inputfield
+  for(i=1; i<=no; i++)  
+  {
+  fact= fact*i;
+  }  
+  document.getElementById("answer").value= fact; // to recieve the calculated number and display it
+  }
+  */
