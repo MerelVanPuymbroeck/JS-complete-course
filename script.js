@@ -219,3 +219,9 @@ function myFunction3() {
   document.body.style.backgroundColor = "blue";
 }
 */
+
+/* color changing to your own suggestion
+$("#btn").click(function(){
+  $("body").css("background-color",$("#txt1").val());
+});
+*/
