@@ -187,3 +187,18 @@ function show(){
   document.getElementById("answer").value= fact; // to recieve the calculated number and display it
   }
   */
+
+ (function() {
+
+  for (i=1; i< 100; i++) {
+    if ( i % 3 ) {
+      console.log ("Fizz"); 
+      // i is equal too 1, if i is less then 100 then there comes +1, 
+      //if i is divisble with 3 then show "fizz"
+    } else if ( i % 5 ) {
+      console.log("Buzz"); // but if i is divisble with 5 then show "fizz"
+    } else {
+      console.log("FizzBuzz") // if there is nothing divisble or less then 100 show "FizzBuzz"
+    }
+  }
+})();
