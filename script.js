@@ -188,17 +188,34 @@ function show(){
   }
   */
 
- (function() {
+ /*(function() {
 
-  for (i=1; i< 100; i++) {
+  for (i=1; i< 100; i++) { // for loop with if else statement
     if ( i % 3 ) {
       console.log ("Fizz"); 
       // i is equal too 1, if i is less then 100 then there comes +1, 
       //if i is divisble with 3 then show "fizz"
     } else if ( i % 5 ) {
-      console.log("Buzz"); // but if i is divisble with 5 then show "fizz"
+      console.log("Buzz"); // but if it is also divisble with 5 then show "buzz"
     } else {
       console.log("FizzBuzz") // if there is nothing divisble or less then 100 show "FizzBuzz"
     }
   }
 })();
+*/
+
+/* color bg
+function myFunction() {
+  document.body.style.backgroundColor = "red";
+}
+function myFunction1() {
+  document.body.style.backgroundColor = "green";
+}
+function myFunction2() {
+  document.body.style.backgroundColor = "yellow";
+}
+
+function myFunction3() {
+  document.body.style.backgroundColor = "blue";
+}
+*/
