@@ -151,3 +151,23 @@ msg = msg + " " + x + " * "+ x + " = " + res + "\n"; // to fill in the numbers i
 alert(msg); //display the messages with the numbers 
 } 
 */
+var submit = document.querySelector('#submit')
+var output = document.getElementById('demo')
+
+var points = [2, 4, 14, 10, 90, 23, 16];
+
+output.innerHTML = points;
+
+function sortArray() {
+  points.sort(function(a, b) {
+    return a - b
+  });
+
+  output.innerHTML = points;
+}
+
+submit.addEventListener('click', function(event) {
+  event.preventDefault()
+
+  sortArray()
+})
